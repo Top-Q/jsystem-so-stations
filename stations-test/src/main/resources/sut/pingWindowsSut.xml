@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sut>
+	<cliConnection>
+		<class>com.aqua.sysobj.conn.WindowsDefaultCliConnection</class>
+        <host edit="enable">127.0.0.1</host>
+        <user edit="enable">aqua</user>
+        <password edit="enable">aqua</password>
+	</cliConnection>
+</sut>

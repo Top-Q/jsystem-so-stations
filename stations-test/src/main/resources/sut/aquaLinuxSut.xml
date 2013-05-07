@@ -1,0 +1,20 @@
+<sut>
+	<station>
+		<class>com.aqua.stations.linux.LinuxStation</class>
+		<!--  <host edit="true">buildServerIp</host> -->
+		<host edit="true">10.0.0.201</host>
+		<cliUser edit="true">root</cliUser>
+		<cliPassword edit="true">xyzzy</cliPassword>
+		<cliProtocol>ssh</cliProtocol>
+		<localHostExternalName>10.0.0.201</localHostExternalName>
+
+	</station>
+
+	<station_test_data>
+		<class>com.aqua.stations.StationTestData</class>
+		<interfaceName >eth0</interfaceName>
+		<newRoute>10.0.0.4</newRoute>
+		<newRouteGW>10.0.0.8</newRouteGW>
+	</station_test_data>
+	
+</sut>

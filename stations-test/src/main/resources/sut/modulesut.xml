@@ -1,0 +1,27 @@
+<sut>
+	<win_station>
+		<class>com.aqua.stations.windows.WindowsStation</class>
+		<host edit="true">127.0.0.1</host>
+		<cliUser edit="true">goland</cliUser>
+		<cliPassword edit="true">SagitDE12!</cliPassword>
+		<cliProtocol>telnet</cliProtocol>
+	</win_station>
+	<linux_station>
+		<class>com.aqua.stations.linux.LinuxStation</class>
+		<host edit="true">10.0.0.16</host>
+		<cliUser edit="true">root</cliUser>
+		<cliPassword edit="true">xyzzy</cliPassword>
+		<cliProtocol>ssh</cliProtocol>
+		<localHostExternalName>10.0.0.9</localHostExternalName>
+	</linux_station>
+
+	<win_station_data>
+		<class>com.aqua.stations.StationTestData</class>
+		<interfaceName >xxx</interfaceName>
+	</win_station_data>
+	<linux_station_data>
+		<class>com.aqua.stations.StationTestData</class>
+		<interfaceName >eth0</interfaceName>
+	</linux_station_data>
+	
+</sut>

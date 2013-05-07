@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sut>
+	<station>
+		<class>com.aqua.stations.windows.WindowsStation</class>
+		<host edit="true">10.0.0.16</host>
+		<cliUser edit="true">simpleuser</cliUser>
+		<cliPassword edit="true">simpleuser</cliPassword>
+		<cliProtocol>telnet</cliProtocol>
+	</station>
+	<station_test_data>
+		<class>com.aqua.stations.StationTestData</class>
+		<interfaceName>Wireless Network Connection</interfaceName>
+		<newRoute>10.0.0.4</newRoute>
+		<newRouteGW>10.0.0.8</newRouteGW>
+		
+	</station_test_data>
+</sut>
